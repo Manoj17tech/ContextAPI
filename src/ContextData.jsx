@@ -1,13 +1,6 @@
 import React from 'react'
 import { createContext } from 'react'
 
-function ContextData() {
-    const subjectContext = createContext("Maths")
-  return (
-    <div>
 
-    </div>
-  )
-}
-
-export default ContextData
+export const subjectContext = createContext("Kannada") //value gets replaced when new Data passed via context Provider value
+  
